@@ -1,2 +1,2 @@
 # HTML-CSS
- Estod Curso em Vídeo
+ Estudo Curso em Vídeo
