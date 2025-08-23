@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.582);
+            border-radius: 10px;
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.582);
+            border-radius: 10px;
+        }
+
+        div#bola {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 50px 0px;
+        }
+
+        nav {
+            background-color: rgb(75, 74, 74);
+            padding: 3px;
+            box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.445);
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: rgb(212, 211, 211);
+            padding: 10px;
+        }
+
+        aside>p {
+            background-color: rgb(107, 107, 107);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+    Grouping Tags:
+    header - Título do Site
+    nav - Navegação de links
+    main -  Conteúdo principal
+    aside - Conteúdo de lado
+    section - Parte do main
+    article - Conteúdo independente
+    footer - Rodapé
+    div - Divisão de conteúdo
+    -->
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Notícias">
+            <p>Notícias</p>
+            <article>
+                <h2>José e Suas Aventuras</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam sequi quas iure facilis perspiciatis.
+                    Maxime unde architecto vitae quia amet, provident cum repudiandae sequi labore praesentium ratione
+                    sint assumenda mollitia!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        Desenvolvido pelo Rick
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
