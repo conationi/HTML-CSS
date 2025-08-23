@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
-</head>
+Veja os meus sites criados para o Curso em Vídeo
 
 <a href="https://conationi.github.io/HTML-CSS/PrimeiroSite/">Primeiro Site</a>
