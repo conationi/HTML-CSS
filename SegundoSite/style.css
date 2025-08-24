@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/*  FONTES  */
+/*  CABEÇALHO*/
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+/*  TEXTO  */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/*  CONFIGURAÇÃO GERAL  */
+:root {
+    --fonte1: 'Sigmar One', cursive;
+    --fonte2: 'Itim';
+}
+
+* {
+    margin: 0px;
+}
+
+/*  CABEÇALHO  */
+header {
+    text-align: center;
+    background-color: black;
+    padding: 2vh 2vw;
+    margin: -10px;
+    margin-bottom: 80px;
+}
+
+header h1 {
+    margin: 10px;
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 7vw;
+    font-weight: bold;
+}
+
+header p {
+    color: white;
+    font-family: sans-serif;
+    size: 1em;
+    padding-bottom: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/*  TEXTO  */
+
+/*  GERAL  */
+main p {
+    font-family: var(--fonte2);
+    font-size: 3rem;
+    line-height: 2;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 80px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/*  PARTE 2  */
+#textopt2>p {
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+/*  IMAGEM  */
+#textopt2 {
+    padding-top: 80px;
+    background-image: url(imagens/background001.jpg);
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    box-shadow: inset 0px 8px 10px rgba(0, 0, 0, 0.4);
+    margin-right: -10px;
+}
+
+/*  PARTE 4  */
+#textopt4>p {
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin-bottom: 60px;
+    box-shadow: inset 0px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+/*  IMAGEM  */
+#textopt4 {
+    padding-top: 80px;
+    background-image: url(imagens/background002.jpg);
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin-right: -10px;
+}
+
+#textopt5 {
+    margin-bottom: 100px;
+}
+
+/*  RODAPÉ  */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    margin-right: -10px;
+}
+
+footer a {
+    display: inline-block;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
