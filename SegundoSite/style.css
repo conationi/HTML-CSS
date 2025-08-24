@@ -92,7 +92,6 @@ main p {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
     margin-bottom: 60px;
-    box-shadow: inset 0px 8px 10px rgba(0, 0, 0, 0.4);
 }
 
 /*  IMAGEM  */
@@ -104,6 +103,7 @@ main p {
     background-attachment: fixed;
     background-position: center center;
     margin-right: -10px;
+    box-shadow: inset 0px 8px 10px rgba(0, 0, 0, 0.4);
 }
 
 #textopt5 {
