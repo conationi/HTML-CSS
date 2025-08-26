@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="idano">Ano de nascimento: </label>
+            <input type="number" name="ano" id="idano" min="1900" max="2025"
+                oninput="ididade.innerHTML = Number(2025) - Number(idano.value)">
+        </p>
+
+        <p>
+            <label for="ididade">Idade:</label>
+            <output id="ididade">0</output>
+        </p>
+
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
