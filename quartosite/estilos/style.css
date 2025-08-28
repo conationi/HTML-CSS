@@ -80,20 +80,20 @@ p {
 
 #entrar {
     display: block;
-    background: #d35931;
+    background-color: #31D4AE;
     color: #fff;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
 
 #entrar:hover {
-    background: #6e2f1a;
+    background: #477F72;
 }
 
 #esqueci {
     display: block;
     padding: 2px;
-    color: #d35931;
-    border: 1px solid #d35931;
-    background: none;
+    background-color: #d35931;
+    color: white;
 }
 
 #esqueci:hover {
