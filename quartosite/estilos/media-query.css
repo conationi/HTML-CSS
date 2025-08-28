@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, #ffd8ac, #d35931);
+    }
+
+    section#corpo {
+        width: 80vw;
+        height: 70vh;
+    }
+
+    section#corpo>div#imagem {
+        float: right;
+        height: 100%;
+        width: 50%;
+        background-size: auto;
+    }
+
+    h1 {
+        margin-top: 20px;
+    }
+
+    p {
+        width: 40%;
+        padding: 30px;
+    }
+
+    #login,
+    #senha {
+        width: 48.5%;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    #idemail,
+    #idsenha {
+        width: 93.5%;
+        height: 75%;
+        border-radius: 20px;
+    }
+
+    #entrar,
+    #esqueci {
+        width: 49%;
+        padding: 10px;
+        font-size: 1.5em;
+        border-radius: 20px;
+    }
+
+    #esqueci {
+        font-size: 1em;
+    }
+}
