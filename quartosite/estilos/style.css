@@ -80,13 +80,13 @@ p {
 
 #entrar {
     display: block;
-    background-color: #31D4AE;
+    background-color: #1d8d73;
     color: #fff;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
 
 #entrar:hover {
-    background: #477F72;
+    background: #2b554b;
 }
 
 #esqueci {
